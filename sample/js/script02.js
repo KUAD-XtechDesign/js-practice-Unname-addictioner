@@ -6,22 +6,22 @@ $(function(){
     let num2 = 32;
 
     $("#button01").on("click",function(){
-        $("#content").text("こんにちわ！");
+        $("#content").append("こんにちわ！");
     })
 
     $("#button02").on("click",function(){
-        $("#content").text(txt1);
+        $("#content").append(txt1);
     })
 
     $("#button03").on("click",function(){
-        $("＃content").text(txt1 + txt2);
+        $("＃content").append(txt1 + txt2);
     })
 
     $("#button04").on("click",function(){
-        $("＃content").text(num1 + num2);
+        $("＃content").append(num1 + num2);
     })
 
     $("#button05").on("click",function(){
-        $("＃content").text(num1 + "足す" + num2 + "は" + (num1 + num2) + "です");
+        $("＃content").append(num1 + "足す" + num2 + "は" + (num1 + num2) + "です");
     })
 })
